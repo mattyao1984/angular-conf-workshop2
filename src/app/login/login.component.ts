@@ -19,6 +19,9 @@ export class LoginComponent implements OnInit {
       case 'google':
         this.afAuth.auth.signInWithPopup(new auth.GoogleAuthProvider());
         break;
+      case 'facebook':
+        this.afAuth.auth.signInWithPopup(new auth.FacebookAuthProvider());
+        break;
       default:
         break;
     }
