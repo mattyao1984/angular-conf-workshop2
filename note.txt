@@ -28,4 +28,10 @@ npm i -g firebase-tools
 5. firebase use --add
 6. firebase deploy
 
+================= Add SSR functions ======================
 
+
+================= Tooltips ======================
+Boilerplates for PWA and SSR:
+maciejtreder/ng-toolkit
+angular/universal-starter

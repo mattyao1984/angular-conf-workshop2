@@ -10,11 +10,17 @@
     ]
   },
   "hosting": {
-    "public": "dist/piggybank",
+    "public": "functions/dist",
     "ignore": [
       "firebase.json",
       "**/.*",
       "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "function": "ssr"
+      }
     ]
   },
   "storage": {
