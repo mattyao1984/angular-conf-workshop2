@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "staging": "angular-workshop-piggybank",
+    "piggybank-firebase": "angular-workshop-piggybank"
+  }
+}
