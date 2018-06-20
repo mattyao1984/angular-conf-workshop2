@@ -1,0 +1,5 @@
+<button id="login" (click)="login('google')">Login with Google</button>
+<div *ngIf="afAuth.user | async as user">
+  <h1>Hello {{ user.displayName }}!</h1>
+  <button id="login" (click)="logout('google')">Log out</button>
+</div>

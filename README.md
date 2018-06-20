@@ -69,7 +69,8 @@ Enable firestore under the database section
 https://gist.github.com/cironunes/d96dd3c40012157996326aaa7a055abd
 
 ================= Add oAuth functions from Firebase ======================
-Coming soon
+- Follow the steps here:
+https://github.com/angular/angularfire2/blob/master/docs/install-and-setup.md
 
 ================= Add CRUD functions from Firebase ======================
 Coming soon
